@@ -27,7 +27,7 @@ function toBech32(words, prefix = null) {
   if (!prefix) {
     throw new Error("Empty bech32 prefix");
   }
-  ret_words = bech32.toWords(Buffer.from(words));
+  var ret_words = bech32.toWords(Buffer.from(words));
   return bech32.encode(prefix, ret_words);
 }
 
