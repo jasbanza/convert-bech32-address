@@ -5,7 +5,7 @@ Derives an address with a custom prefix, from a source BIP32 HD wallet address
 
 
 ### Usage:
-- include the 3 javascript source files found in the `src` folder, OR the minified version: `script.min.js`
+- include the 3 javascript source files (OR the minified version: `script.min.js`) found in the `src` folder, 
 - calling the function: `lookup(address,prefix)` (found in `src\address.js`) will generate an address with a prefix derived from the source address
 
 ### Example:
