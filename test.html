@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="lib/bech32.js"></script>
+  <script type="text/javascript" src="lib/buffer.js"></script>
+  <script type="text/javascript" src="lib/address.js"></script>
+  <title>Test convert</title>
+</head>
+
+<body>
+  <style>
+    label {
+      display: inline-block;
+      width: 150px;
+    }
+
+    input {
+      width: 200px;
+    }
+  </style>
+  <label for="address">Source address: </label>
+  <input type="text" name="address" id="address" value="" placeholder="cosmos1....">
+  <br>
+  <label for="prefix">new address prefix:</label>
+  <input type="text" name="prefix" id="prefix" value="" placeholder="akash / sent / osmo / ...">
+  <br>
+  <br>
+  <button type="button" name="button" onclick="btnConvert_onClick()">Convert</button>
+  <br>
+  <br>
+  Output:
+  <div id="output">
+
+  </div>
+  <script type="text/javascript">
+    function btnConvert_onClick() {
+      var address = document.getElementById("address").value;
+      var prefix = document.getElementById("prefix").value;
+      var output = lookup(address, prefix);
+      document.getElementById("output").innerHTML = output;
+    }
+  </script>
+</body>
+
+</html>
