@@ -1,5 +1,5 @@
 # convert-bech32-address
-Zero dependancy bech32 address converter, in javascript for browsers.
+Zero dependancy bech32 address converter for node.js, including browser javascript version.
 
 Derives an address with a custom prefix, from a source BIP32 HD wallet address
 
