@@ -3,8 +3,8 @@ Zero dependancy bech32 address converter for node.js, including browser javascri
 
 Derives an address with a custom prefix, from a source BIP32 HD wallet address
 
-### Node.js Usage:
-#### Install
+### Install
+
 From npm repo:
 ```bash
 npm install convert-bech32-address
@@ -14,7 +14,8 @@ OR clone from GitHub repo:
 git clone https://github.com/jasbanza/convert-bech32-address.git
 ```
 
-#### Usage:
+
+### Node.js Usage:
 ```bash
 node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
 ```
