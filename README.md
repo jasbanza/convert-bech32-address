@@ -8,7 +8,7 @@ Derives an address with a custom prefix, from a source BIP32 HD wallet address
 ```bash
 npm install convert-bech32-address
 ```
-#### Test:
+#### Usage:
 ```bash
 node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
 ```
