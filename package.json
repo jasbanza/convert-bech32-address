@@ -1,0 +1,25 @@
+{
+  "name": "convert-bech32-address",
+  "version": "1.0.0",
+  "description": "Zero dependancy bech32 address converter for node.js, including browser javascript version.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasbanza/convert-bech32-address.git"
+  },
+  "keywords": [
+    "bech32",
+    "derivation",
+    "browser",
+    "crypto"
+  ],
+  "author": "jasbanza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasbanza/convert-bech32-address/issues"
+  },
+  "homepage": "https://github.com/jasbanza/convert-bech32-address#readme"
+}
