@@ -13,10 +13,14 @@ npm install convert-bech32-address
 node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
 ```
 Or simply:
-```bash
+```
 node test
 ```
 
+Output:
+```bash
+juno1r5qkmvn9hnv0pugejr73639w07d2mugh9fampp
+```
 
 ### Browser Usage:
 - include the 3 javascript source files (OR the minified version: `script.min.js`) found in the `src` folder,
