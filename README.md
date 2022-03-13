@@ -12,12 +12,8 @@ npm install convert-bech32-address
 ```bash
 node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
 ```
-Or simply:
-```
-node test
-```
 
-Output:
+#### Output:
 ```bash
 juno1r5qkmvn9hnv0pugejr73639w07d2mugh9fampp
 ```
