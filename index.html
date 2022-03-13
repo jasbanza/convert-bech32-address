@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <script type="text/javascript" src="dist/script.min.js"></script>
+  <script type="text/javascript" src="./test.js"></script><!-- include this file in browser.-->
   <title>Test convert</title>
 </head>
 
@@ -36,7 +36,7 @@
     function btnConvert_onClick() {
       var address = document.getElementById("address").value;
       var prefix = document.getElementById("prefix").value;
-      var output = lookup(address, prefix);
+      var output = lookup(address, prefix); // use this "lookup" function in browser
       document.getElementById("output").innerHTML = output;
     }
   </script>
