@@ -14,13 +14,11 @@ OR clone from GitHub repo:
 git clone https://github.com/jasbanza/convert-bech32-address.git
 ```
 
-
 ### Node.js Usage:
 ```bash
 node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
 ```
-
-#### Output:
+Output:
 ```bash
 juno1r5qkmvn9hnv0pugejr73639w07d2mugh9fampp
 ```
