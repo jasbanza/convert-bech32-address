@@ -1,6 +1,6 @@
 {
   "name": "convert-bech32-address",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Zero dependancy bech32 address converter for node.js, including browser javascript version.",
   "main": "convert-bech32-address.js",
   "scripts": {
