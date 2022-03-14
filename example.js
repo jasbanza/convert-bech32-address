@@ -3,7 +3,7 @@
  node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
 
  */
-var converter = require('./convert-module.js');
+var converter = require('./convert-bech32-address.js');
 
 const args = process.argv.slice(2);
 
