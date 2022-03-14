@@ -15,8 +15,17 @@ git clone https://github.com/jasbanza/convert-bech32-address.git
 ```
 
 ### Node.js Usage:
+```js
+var converter = require('./convert-bech32-address.js');
+
+var newAddress = converter.lookup('cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa','juno');
+
+console.log(newAddress);
+```
+
+### Node.js Test:
 ```bash
-node main.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
+node example.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno
 ```
 Output:
 ```bash
