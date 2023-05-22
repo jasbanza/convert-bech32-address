@@ -4,7 +4,8 @@
   "description": "Zero dependancy bech32 address converter for node.js, including browser javascript version.",
   "main": "convert-bech32-address.js",
   "scripts": {
-    "test": "node example.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno"
+    "test": "node example.js cosmos1r5qkmvn9hnv0pugejr73639w07d2mughnm7qxa juno",
+    "bulk": "node bulk-txt-convert.js"
   },
   "repository": {
     "type": "git",
